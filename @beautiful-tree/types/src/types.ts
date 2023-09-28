@@ -6,7 +6,7 @@ export interface TreeChild<T extends Tree = Tree> {
 export interface Node {
 	readonly data?: Readonly<Record<string, unknown>> | undefined
 }
-type t = 'g'
+export type t = 'gh'
 export type Tree = Node & {
 	readonly children?: readonly TreeChild[] | undefined
 }
